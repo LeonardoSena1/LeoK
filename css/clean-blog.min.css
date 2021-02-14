@@ -277,7 +277,7 @@ header.masthead .post-heading .meta a {
 .post-preview>a:focus,
 .post-preview>a:hover {
     text-decoration: none;
-    color: #0085a1
+    color: #0085a1;
 }
 
 .post-preview>a>.post-title {
@@ -435,5 +435,84 @@ footer .copyright {
 .botaovermais:hover {
     background-color: #327f99;
     color: white;
+    transition: .5s;
 }
 
+
+    /* Destacado em */
+
+.conteudo {
+    height: 300px;
+    background: gray;
+    margin: 50px 0 50px 0;
+}
+
+    /* Area de images */
+
+.images{
+    display: flex;
+    grid-gap: 5px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    max-width:auto;
+}
+
+.video{
+    background: url(../img/leo-k-capa.jpg)no-repeat;
+    background-size: cover;
+    height: calc(100vh) ;
+    width: 100%;
+    max-width:auto;
+    margin-top: 5px;
+}
+
+    /* Area de cards */
+
+
+.depoimentos h1{
+    text-align: center;
+    margin-top: 190px;
+}
+
+.depoimentos h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly ;
+
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 1rem;
+}
+
+.card{
+    height: 150px;
+    width: 24%;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card img{
+    
+}
+
+.texto{
+    text-align: center;
+}
+
+.imagems{
+    display: flex;
+    grid-gap: 5px;
+}
+
+.imagem img{
+    width: 100%;
+    max-width:auto;
+}
